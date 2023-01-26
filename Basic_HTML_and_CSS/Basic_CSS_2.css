@@ -1,0 +1,26 @@
+p {
+	color: darkpurple;
+	background: grey;
+	font-weight: bold;
+	text-align: left;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+	font-size: large;
+}
+ol {
+	list-style-type: upper-roman;
+	color: darkblue;
+	background: grey;
+	font-weight: bold;
+	text-align: left;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+	font-size: medium;
+}
+ul {
+	list-style-type: square;
+	color: darkblue;
+	background: grey;
+	font-weight: bold;
+	text-align: left;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+	font-size: medium;
+}
