@@ -4,7 +4,7 @@ This repository will contain course work and projects that are in relation with 
 # Projects
 Below are project examples of home pages utilizing HTML and CSS
 <ul>
-  <li><a href="https://github.com/MisterVal777](https://github.com/MisterVal777/HTML-and-CSS-projects/tree/main/Basic_HTML_and_CSS/Project%20space%20station" target="">Space Station Site</a></li>
+  <li><a href="https://github.com/MisterVal777/HTML-and-CSS-projects/tree/main/Basic_HTML_and_CSS/Project%20space%20station" target="">Space Station Site</a></li>
   <li><a href="https://github.com/MisterVal777/HTML-and-CSS-projects/tree/main/Basic_HTML_and_CSS/bootstrap4_project" target="">Cinema Theater Site</a></li>
   <li><a href="https://github.com/MisterVal777/HTML-and-CSS-projects/tree/main/Basic_HTML_and_CSS/One-Page-Website" target="">One page Assignment Site</a></li>
 </ul>
