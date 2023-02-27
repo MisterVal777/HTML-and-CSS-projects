@@ -4,6 +4,7 @@
         <link rel = "stylesheet" type = "text/css" href = "./css/one_page_website.css">
 		<title>Vancouver Bite nights | K9 Training</title>
 		<meta charset="utf-8">
+		<script src="./JS/one_page_website.js" defer></script>
 	</head>
 	<body>
 	
@@ -30,7 +31,69 @@
 			</div>
 		</div>
 		<!--END HOME-->
-		
+
+		<div class="row">
+			<div class="column">
+			  <img src="./images/Thumb/thumbnail_1.png" style="width:50%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+			  <img src="./images/Thumb/thumbnail_2.png" style="width:50%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+			  <img src="./images/Thumb/thumbnail_3.png" style="width:50%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+			  <img src="./images/Thumb/thumbnail_4.png" style="width:50%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+			</div>
+		  </div>
+
+
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+		  
+			  <div class="mySlides">
+				<div class="numbertext">1 / 4</div>
+				<img src="./images/Thumb/thumbnail_1wide.png" style="width:100%">
+			  </div>
+		  
+			  <div class="mySlides">
+				<div class="numbertext">2 / 4</div>
+				<img src="./images/Thumb/thumbnail_2wide.png" style="width:100%">
+			  </div>
+		  
+			  <div class="mySlides">
+				<div class="numbertext">3 / 4</div>
+				<img src="./images/Thumb/thumbnail_3wide.png" style="width:100%">
+			  </div>
+			  
+			  <div class="mySlides">
+				<div class="numbertext">4 / 4</div>
+				<img src="./images/Thumb/thumbnail_4wide.png" style="width:100%">
+			  </div>
+			  
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		  
+			  <div class="caption-container">
+				<p id="caption"></p>
+			  </div>
+		  
+		    <div class="column">
+      			<img class="demo cursor" src="./images/Thumb/thumbnail_1wide.png" style="width:25%" onclick="currentSlide(1)" alt="Belgian catch">
+  			</div>
+    		<div class="column">
+     			 <img class="demo cursor" src="./images/Thumb/thumbnail_2wide.png" style="width:25%" onclick="currentSlide(2)" alt="Rotti Entrence">
+   			</div>
+    		<div class="column">
+     			 <img class="demo cursor" src="./images/Thumb/thumbnail_3wide.png" style="width:25%" onclick="currentSlide(3)" alt="Dutchie sit">
+   			</div>
+    		<div class="column">
+      			<img class="demo cursor" src="./images/Thumb/thumbnail_4wide.png" style="width:25%" onclick="currentSlide(4)" alt="Dutchie heel">
+   			 </div>
+ 			 </div>
+			</div>
+
 		
 		<!-- GALLERY -->
 		<section>
@@ -38,49 +101,7 @@
 				<h1>Gallery</h1>
 				<div>
 				
-					<!-- PHOTO CONTAINER 1 -->
-					<div>
-						<div>
-							<img src="./images/Thumb/thumbnail_1.png" alt="Belgian catch" class="center">
-							<div>
-								<p>We have limited spots available, reserve your bite today!</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO CONTAINER 1 -->
-					
-					<!-- PHOTO CONTAINER 2 -->
-					<div>
-						<div>
-							<img src="./images/Thumb/thumbnail_2.png" alt="Rotti entrance" class="center">
-							<div>
-								<p>We have limited spots available, reserve your bite today!</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO CONTAINER 2 -->
-					
-					<!-- PHOTO CONTAINER 3 -->
-					<div>
-						<div>
-							<img src="./images/Thumb/thumbnail_3.png" alt="Dutchie sit" class="center">
-							<div>
-								<p>We have limited spots available, reserve your bite today!</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO CONTAINER 3 -->
-					
-					<!-- PHOTO CONTAINER 4 -->
-					<div>
-						<div>
-							<img src="./images/Thumb/thumbnail_4.png" alt="Dutchie heel" class="center">
-							<div>
-								<p>We have limited spots available, reserve your bite today!</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO CONTAINER 4 -->
+
 					
 					
 					
